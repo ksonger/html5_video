@@ -1,0 +1,31 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>HP Video</title>
+</head>
+<body>
+<script type="text/javascript" src="./js/lib/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="./js/lib/underscore-min.js"></script>
+<script type="text/javascript" src="./js/lib/backbone-min.js"></script>
+<script type="text/javascript" src="./js/routers/Main.js"></script>
+
+<script>
+    var video = new player({json:"./json/data.json"});
+</script>
+
+<!-- for local testing only -->
+<script type="text/javascript">
+function recordVideoLoad(name){
+    if(console && console.log)  {
+        console.log("placeholder function recordVideoLoad for: " + name);
+    }
+}
+function recordVideoTime(time, name){
+    if(console && console.log)  {
+        console.log("placeholder function recordVideoTime for: " + name + ", length is: " + time);
+    }
+}
+</script>
+
+</body>
+</html>

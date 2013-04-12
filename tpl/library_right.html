@@ -1,0 +1,12 @@
+<div id="library_right_list" style="width:<%= conf.librarywidth %>px; height:<%= conf.libraryheight %>px">
+    <div id="library_right_contents">
+        <% _(videos).each(function(vid, i) { %>
+        <div id="library_right_item"  class="library_item">
+            <img src="<%= vid.thumb %>"/><br />
+            <span id="ttl_text"><%= vid.title %></span><br />
+            <span id="desc_text"><%= vid.description %></span><br />
+            <input id="item_id" type="hidden" value="<%= i %>" />
+        </div>
+        <% }); %>
+    </div>
+</div>

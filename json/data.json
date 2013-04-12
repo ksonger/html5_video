@@ -1,0 +1,149 @@
+{
+    "config": {
+        "container":"player_div",
+        "template": "library_right",
+        "librarywidth": 200,
+        "libraryheight": 360,
+        "autoadvance":true,
+        "theme-color":"#59c1ee",
+        "flashplayer":"./swf/player.swf"
+    },
+    "mediaelement_options": {
+        "startVolume":0.8,
+        "features":["playpause", "progress", "current", "duration", "tracks", "volume", "fullscreen"],
+        "enableAutosize":false,
+        "defaultVideoWidth":640,
+        "defaultVideoHeight":360,
+        "videoWidth":-1,
+        "videoHeight":-1,
+        "audioWidth":400,
+        "audioHeight":30,
+        "loop":false,
+        "alwaysShowControls":false,
+        "iPadUseNativeControls": false,
+        "iPhoneUseNativeControls": false,
+        "AndroidUseNativeControls": false,
+        "alwaysShowHours": false,
+        "showTimecodeFrameCount": false,
+        "framesPerSecond": 30,
+        "enableKeyboard": true,
+        "pauseOtherPlayers": true,
+        "keyActions": []
+    },
+    "videos": [
+        {
+            "attributes":{
+                "width":640,
+                "height":360,
+                "autoplay":true,
+                "controls":"controls",
+                "preload":"none",
+                "poster":""
+            },
+            "mp4": "http://kensonger.com/hp_html5_video/HP-129568548-HP_LaserJet_Recycling_-_NA_640.mp4",
+            "ogv": "http://kensonger.com/hp_html5_video/HP-129568548-HP_LaserJet_Recycling_-_NA_640.ogv",
+            "webm": "http://kensonger.com/hp_html5_video/HP-129568548-HP_LaserJet_Recycling_-_NA_640.webm",
+            "thumb": "./assets/thumbs/photos.png",
+            "chapters":"none",
+            "subtitles":"none",
+            "title": "Recycling",
+            "running_time":175,
+            "tracking_name":"HP Laserjet Recycling NA",
+            "description":  "This is a video about HP recycling services."
+        },
+        {
+            "attributes":{
+                "width":640,
+                "height":360,
+                "autoplay":true,
+                "controls":"controls",
+                "preload":"auto",
+                "poster":""
+            },
+            "mp4": "http://kensonger.com/hp_html5_video/HP-129568549-HP_Closed_Loop_English_640_1.mp4",
+            "ogv": "http://kensonger.com/hp_html5_video/HP-129568549-HP_Closed_Loop_English_640_1.ogv",
+            "webm": "http://kensonger.com/hp_html5_video/HP-129568549-HP_Closed_Loop_English_640_1.webm",
+            "thumb": "./assets/thumbs/canvas.png",
+            "chapters":"none",
+            "subtitles":"none",
+            "title": "Canvas",
+            "running_time":80,
+            "tracking_name":"HP Closed Loop English",
+            "description":  "This is a video about the Canvas app from HP."
+        },
+        {
+            "attributes":{
+                "width":640,
+                "height":360,
+                "autoplay":true,
+                "controls":"controls",
+                "preload":"auto",
+                "poster":""
+            },
+            "mp4": "http://kensonger.com/hp_html5_video/HP-129568548-HP_LaserJet_Recycling_-_NA_640.mp4",
+            "ogv": "http://kensonger.com/hp_html5_video/HP-129568548-HP_LaserJet_Recycling_-_NA_640.ogv",
+            "webm": "http://kensonger.com/hp_html5_video/HP-129568548-HP_LaserJet_Recycling_-_NA_640.webm",
+            "thumb": "./assets/thumbs/photos.png",
+            "chapters":"none",
+            "subtitles":"none",
+            "title": "Recycling",
+            "description":  "This is a video about HP recycling services."
+        },
+        {
+            "attributes":{
+                "width":640,
+                "height":360,
+                "autoplay":true,
+                "controls":"controls",
+                "preload":"auto",
+                "poster":""
+            },
+            "mp4": "http://kensonger.com/hp_html5_video/HP-129568549-HP_Closed_Loop_English_640_1.mp4",
+            "ogv": "http://kensonger.com/hp_html5_video/HP-129568549-HP_Closed_Loop_English_640_1.ogv",
+            "webm": "http://kensonger.com/hp_html5_video/HP-129568549-HP_Closed_Loop_English_640_1.webm",
+            "thumb": "./assets/thumbs/canvas.png",
+            "chapters":"none",
+            "subtitles":"none",
+            "title": "Canvas",
+            "running_time":0,
+            "tracking_name":"",
+            "description":  "This is a video about the Canvas app from HP."
+        },
+        {
+            "attributes":{
+                "width":640,
+                "height":360,
+                "autoplay":true,
+                "controls":"controls",
+                "preload":"auto",
+                "poster":""
+            },
+            "mp4": "http://kensonger.com/hp_html5_video/HP-129568548-HP_LaserJet_Recycling_-_NA_640.mp4",
+            "ogv": "http://kensonger.com/hp_html5_video/HP-129568548-HP_LaserJet_Recycling_-_NA_640.ogv",
+            "webm": "http://kensonger.com/hp_html5_video/HP-129568548-HP_LaserJet_Recycling_-_NA_640.webm",
+            "thumb": "./assets/thumbs/photos.png",
+            "chapters":"none",
+            "subtitles":"none",
+            "title": "Recycling",
+            "description":  "This is a video about HP recycling services."
+        },
+        {
+            "attributes":{
+                "width":640,
+                "height":360,
+                "autoplay":true,
+                "controls":"controls",
+                "preload":"auto",
+                "poster":""
+            },
+            "mp4": "http://kensonger.com/hp_html5_video/HP-129568549-HP_Closed_Loop_English_640_1.mp4",
+            "ogv": "http://kensonger.com/hp_html5_video/HP-129568549-HP_Closed_Loop_English_640_1.ogv",
+            "webm": "http://kensonger.com/hp_html5_video/HP-129568549-HP_Closed_Loop_English_640_1.webm",
+            "thumb": "./assets/thumbs/canvas.png",
+            "chapters":"none",
+            "subtitles":"none",
+            "title": "Canvas",
+            "description":  "This is a video about the Canvas app from HP."
+        }
+    ]
+}

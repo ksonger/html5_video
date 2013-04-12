@@ -1,0 +1,79 @@
+
+#library_container {
+    background: #000000;
+    position:absolute;
+    border: 1px solid #444444;
+}
+#video_container {
+    background: #000000;
+    border: 1px solid #444444;
+    position:absolute;
+}
+.library_link{
+    text-decoration:none;
+}
+#ttl_text{
+    font-family: Arial;
+    color: #FFFFFF;
+    font-size:12px;
+    font-weight:bold;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#desc_text{
+    font-family: Arial;
+    color: #FFFFFF;
+    font-size:11px;
+    text-decoration:none;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+#library_left_list  {
+
+}
+#library_left_contents  {
+}
+#library_left_item  {
+    padding:15px;
+    cursor:pointer;
+}
+#library_right_list  {
+
+}
+#library_right_contents  {
+}
+#library_right_item  {
+    padding:15px;
+    cursor:pointer;
+}
+.library_item{
+    background:#000000;
+}
+.library_item img  {
+    border: solid #000000 1px;
+    margin-bottom:5px;
+}
+.library_item_hover {
+    background:#222222;
+}
+.library_item_hover img  {
+    border: solid #000000 1px;
+    margin-bottom:5px;
+}
+.library_item_selected  {
+    background:#222222;
+}
+.library_item_selected img  {
+    border: solid #b4b9bc 1px;
+    margin-bottom:5px;
+}
+
+
